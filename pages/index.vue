@@ -5,6 +5,9 @@
             <NuxtLink to="/spa">SPA</NuxtLink>
         </li>
         <li>
+            <NuxtLink to="/ssr">SSR</NuxtLink>
+        </li>
+        <li>
             <NuxtLink to="/ssg">SSG</NuxtLink>
         </li>
         <li>
