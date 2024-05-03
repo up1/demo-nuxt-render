@@ -7,6 +7,6 @@ export default defineNuxtConfig({
     "/spa": { ssr: false },
     "/ssr": { ssr: true },
     "/ssg": { prerender: true },
-    "/isr_ttl": { isr: 60 },
+    "/isr_ttl": { isr: 10 },
   },
 })
