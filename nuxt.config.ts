@@ -6,5 +6,7 @@ export default defineNuxtConfig({
     // revalidate after 60 seconds
     "/spa": { ssr: false },
     "/ssr": { ssr: true },
+    "/ssg": { prerender: true },
+    "/isr_ttl": { isr: 60 },
   },
 })
